@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Несколько селекторов слитно</title>
+    <link rel="stylesheet" href="./task38.css">
+</head>
+<body>
+    <!-- Ex. 1 -->
+    <div class="Ex">
+        <h1>Ex. 1</h1>
+        <p class="bbb zzz">Селектор выбирает все элементы с классами bbb и zzz</p>
+    </div>
+
+    <!-- Ex. 2 -->
+    <div class="Ex">
+        <h1>Ex. 2</h1>
+        <h2 class="bbb zzz">Селектор выбирает все элементы h2 с классами bbb и zzz</h2>
+    </div>
+
+    <!-- Ex. 3 -->
+    <div class="Ex">
+        <h1>Ex. 3</h1>
+        <p id="elem" class="bbb">Селектор выбирает все элементы с id = "elem" и классом bbb</p>
+    </div>
+
+    <!-- Ex. 4 -->
+    <div class="Ex">
+        <h1>Ex. 4</h1>
+        <p id="elem" class="bbb zzz">Селектор выбирает все элементы с id = "elem" и классами bbb и zzz</p>
+    </div>
+
+    <!-- Ex. 5 -->
+    <div class="Ex">
+        <h1>Ex. 5</h1>
+        <h2 id="elem" class="bbb">Селектор выбирает все элементы h2 с id = "elem" и классом bbb</h2>
+    </div>
+
+    <!-- Ex. 6 -->
+    <div class="Ex">
+        <h1>Ex. 6</h1>
+        <h2 class="zzz">Селектор выбирает все элементы h2 с классом zzz</h2>
+    </div>
+
+    <!-- Ex. 7 -->
+    <div class="Ex">
+        <h1>Ex. 7</h1>
+        <h2>
+            <p class="zzz">Селектор выбирает все элементы внутри h2, у которых класс zzz</p>
+        </h2>
+    </div>
+
+    <!-- Ex. 8 -->
+    <div class="Ex">
+        <h1>Ex. 8</h1>
+        <p class="bbb zzz">Селектор выбирает все элементы с классами bbb и zzz</p>
+    </div>
+
+    <!-- Ex. 9 -->
+    <div class="Ex">
+        <h1>Ex. 9</h1>
+        <div class="bbb">
+            <p class="zzz">Селектор выбирает все элементы с классом zzz, которые находятся внутри элемента с классом bbb</p>
+        </div>
+    </div>
+
+    <!-- Ex. 10 -->
+    <div class="Ex">
+        <h1>Ex. 10</h1>
+        <p class="bbb zzz xxx">Селектор выбирает все элементы с классами bbb, zzz и xxx</p>
+    </div>
+
+    <!-- Ex. 11 -->
+    <div class="Ex">
+        <h1>Ex. 11</h1>
+        <div class="bbb">
+            <p class="zzz xxx">Селктор выбирает все элементы с классами zzz и xxx, которые находятся внутри элемента с классом bbb</p>
+        </div>
+    </div>
+
+    <!-- Ex. 12 -->
+    <div class="Ex">
+        <h1>Ex. 12</h1>
+        <div class="bbb zzz">
+            <p class="xxx">Селектор выбирает все элементы с классом xxx, которые находятся внутри элемента с классами bbb и zzz</p>
+        </div>
+    </div>
+
+    <!-- Ex. 13 -->
+    <div class="Ex">
+        <h1>Ex. 13</h1>
+        <div class="bbb">
+            <ul class="zzz">
+                <li class="xxx">Селектор выбирает все элементы с классом xxx, которые находятся внутри элемента с классом zzz, который, в свою очередь, находится внутри элемента с классом bbb</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Ex. 14 -->
+    <div class="Ex">
+        <h1>Ex. 14</h1>
+        <p id="elem" class="bbb">Селектор выбирает все элементы с id = "elem" и классом bbb</p>
+    </div>
+
+    <!-- Ex. 15 -->
+    <div class="Ex">
+        <h1>Ex. 15</h1>
+        <dib id="elem">
+            <p class="bbb">Селектор выбирает все элементы с классом bbb, которыен находятся внутри элемента с id = "elem"</p>
+        </dib>
+    </div>
+</body>
+</html>
