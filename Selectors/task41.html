@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приоритет селекторов</title>
+    <link rel="stylesheet" href="./task41.css">
+</head>
+<body>
+    <!-- Ex. 1 -->
+    <div>
+        <h1>Ex. 1</h1>
+        <h2>text</h2>
+        <h3>CSS Styles: <br> h2 { font-size: 20px; }<br> h2 { font-size: 30px; }</h3>
+        <p>Заголовки h2 будут размером 30px, потому что заданы два селектора h2 с одинаковыми свойствами, и при таком раскладе, всегда будет приоритетнее тот селектор, который ниже.</p>
+    </div>
+
+    <!-- Ex. 2 -->
+    <div>
+        <h1>Ex. 2</h1>
+        <h2 class="h2">text</h2>
+        <h3>CSS Styles: <br> .h2 { font-size: 20px; color: blue; } <br> .h2 { font-style: italic; color: red; }</h3>
+        <p>Заголовки h2 примут свойства обоих селекторов, не смотря на то, что они одинаковые, свойства у каждого из них разные, правило последнего селектора действует только тогда, когда селекторы одинаковые и их свойства также совпадают.</p>
+    </div>
+</body>
+</html>
