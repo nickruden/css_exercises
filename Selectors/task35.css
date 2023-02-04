@@ -1,0 +1,26 @@
+div{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Ex. 1 */
+#elem1{
+    background-color: rgba(165, 42, 42, 0.315); 
+    color: red;
+}
+#elem2{
+    background-color: rgba(43, 139, 43, 0.315);
+    color: green;
+}
+#elem3{
+    background-color: rgba(0, 0, 71, 0.315);
+    color: rgb(0, 110, 255);
+}
