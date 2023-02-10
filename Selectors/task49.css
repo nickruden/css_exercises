@@ -1,0 +1,55 @@
+.Ex{
+    margin: 0 auto;
+    width: 450px;
+    background-color: antiquewhite;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.Ex3{
+    border: 1px dashed rgb(0, 0, 0);
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+
+/* Ex.1 */
+.Ex1>h2:first-of-type{
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+.Ex1>p:last-of-type{
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 2 */
+.Ex2>p:nth-of-type(3){
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+.Ex2>a:nth-of-type(odd){
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+.Ex2>h2:nth-last-of-type(2){
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+.Ex2>p:nth-last-of-type(even){
+    color: rgb(33, 136, 127);
+    text-shadow: 0px 1px 10px rgb(19, 217, 252);
+}
+
+/* Ex. 3 */
+.Ex3>a:only-of-type, .Ex3>p:only-of-type{
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
