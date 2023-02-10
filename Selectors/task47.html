@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сложные селекторы со ссылками</title> 
+    <link rel="stylesheet" href="./task47.css"> 
+</head> 
+
+<body> 
+    <!-- Ex. 1 --> 
+    <div id="Ex"> 
+        <h1>Ex.1</h1> 
+        <a href="#">Просто ссылка</a> <br> 
+        <a href="#">Просто ссылка</a> <br> 
+        <a href="#">Просто ссылка</a> 
+        <p>Селектор выбирает просто все ссылки</p>
+    </div> 
+
+    <!-- Ex. 2 --> 
+    <div id="Ex"> 
+        <h1>Ex.2</h1> 
+        <a href="#" class="zzz">Ссылка с классом</a> <br> 
+        <a href="#" class="zzz">Ссылка с классом</a> <br> 
+        <a href="#" class="zzz">Ссылка с классом</a> 
+        <p>Селектор выбирает все ссылки с классом, значение которого zzz</p>
+    </div> 
+
+    <!-- Ex. 3 --> 
+    <div id="Ex"> 
+        <h1>Ex.3</h1> 
+        <div id="block">
+            <a href="#" class="zzz">Ссылка с классом</a> <br> 
+            <a href="#" class="zzz">Ссылка с классом</a> <br> 
+            <a href="#" class="zzz">Ссылка с классом</a> 
+            <p>Селектор выбирает все ссылки с классом zzz, которые находятся внутри блока с id = "block"</p>
+        </div>
+    </div> 
+
+    <!-- Ex. 4 --> 
+    <div id="Ex"> 
+        <h1>Ex.4</h1> 
+        <div class="block">
+            <a href="#" class="zzz">Ссылка с классом</a> <br> 
+            <a href="#" class="zzz">Ссылка с классом</a> <br> 
+            <a href="#" class="zzz">Ссылка с классом</a> 
+            <p>Селектор выберет все ссылки с классом zzz, которые находятся внутри блока, у которго значение класса равно block</p>
+        </div>
+    </div> 
+</body> 
+</html>
