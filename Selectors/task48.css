@@ -1,0 +1,86 @@
+.Ex{
+    margin: 0 auto;
+    width: 300px;
+    background-color: antiquewhite;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.Ex1, .Ex2, .Ex3, .Ex4, .Ex5, .Ex6, .Ex7{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    margin-left: 55px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+/* Ex. 1 */
+.Ex1>.ul1>li:first-child, .Ex1>.ul2>li:last-child{
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 2 */
+.Ex2>.ul3>li:last-child, .Ex2>.ul4>li:last-child{
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 3 */
+.Ex3>ul>li:first-child, .Ex3>ul>li:last-child{
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 4 */
+.Ex4>ul>li:nth-child(3){
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 5 */
+.Ex5>ul>li:nth-child(odd){
+    color: rgb(27, 144, 173);
+    text-shadow: 0px 1px 10px rgb(0, 238, 255);
+}
+.Ex5>ul>li:nth-child(even){
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 6 */
+.Ex6>ul>li:nth-child(3n){
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 7 */
+.Ex7>ul>li:nth-last-child(2){
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 8 */
+.Ex8>ul>li:only-child{
+    color: rgb(34, 202, 12);
+    text-shadow: 0px 1px 10px rgb(31, 255, 162);
+}
+
+/* Ex. 9 */
+.Ex9>ul>li{
+    border: 1px solid red;
+    margin-top: 7px;
+    width: 110px;
+}
+.Ex9>ul>li:empty{
+    border: 1px solid blue;
+    margin-top: 7px;
+    width: 110px;
+}
