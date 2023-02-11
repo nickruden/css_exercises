@@ -1,0 +1,38 @@
+.Ex{
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.219);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.ex1{
+    margin: 20px;
+    margin-left: 40px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid;
+    border-top-color: blue;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color: orange;
+}
+
+/* Ex. 2 */
+.ex2{
+    margin: 20px;
+    margin-left: 40px;
+    width: 300px;
+    height: 200px;
+    border-top: 2px solid blue;
+    border-right: 3px dotted green;
+    border-bottom: 2px solid blue;
+    border-left: 3px solid red;
+}
