@@ -1,0 +1,36 @@
+.Ex{
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.ex1{
+    margin: 20px;
+    margin-left: 40px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(133, 133, 238);
+}
+
+/* Ex. 2 */
+.ex2{
+    margin: 20px;
+    margin-left: 40px;
+    height: 200px;
+    width: 290px;
+    background-color: rgb(96, 233, 149);
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
