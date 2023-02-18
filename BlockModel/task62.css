@@ -1,0 +1,64 @@
+.Ex{
+    margin: 0 auto;
+    height: 350px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.ex1{
+    width: 210px;
+    height: 250px;
+    border: 2px solid red;
+    margin-left: 40px;
+}
+.ex1>div{
+    width: 100px;
+    height: 105px;
+    border: 2px solid green;
+    margin-top: 42px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    margin-left: 54px;
+}
+
+/* Ex. 2 */
+.ex2{
+    width: 240px;
+    height: 250px;
+    border: 2px solid red;
+    margin-left: 40px;
+}
+.ex2>div{
+    width: 170px;
+    height: 110px;
+    border: 2px solid green;
+    margin-top: 70px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+
+/* Ex. 3 */
+.ex3{
+    width: 240px;
+    height: 175px;
+    border: 2px solid red;
+    margin-left: 40px;
+}
+.ex3>div{
+    width: 70px;
+    height: 110px;
+    border: 2px solid green;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
