@@ -1,0 +1,44 @@
+.Ex{
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-size: 18px;
+}
+
+/* Ex. 1 */
+.ex1{
+    width: 230px;
+    height: 250px;
+    border: 2px solid red;
+    margin-left: 40px;
+    padding: 40px;
+    text-align: justify;
+}
+
+/* Ex. 2 */
+.ex21{
+    height: 120px;
+    border: 2px solid green;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.ex22{
+    width: 330px;
+    height: 200px;
+    border: 2px solid red;
+    margin-left: 100px;
+    padding: 10px;
+    text-align: justify;
+}
