@@ -1,0 +1,81 @@
+.Ex{
+    margin: 0 auto;
+    height: 350px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.ex1{
+    width: 210px;
+    height: 230px;
+    border: 2px solid orange;
+    margin-left: 40px;
+}
+.ex1>div{
+    width: 150px;
+    height: 55px;
+    border: 2px dashed blue;
+    margin: 27px 50px 70px 10px;
+}
+
+/* Ex. 2 */
+.ex2{
+    width: 210px;
+    height: 255px;
+    border: 2px solid orange;
+    margin-left: 40px;
+}
+.ex2>div{
+    width: 100px;
+    height: 55px;
+    border: 2px dashed blue;
+    margin: 91px 51px ;
+}
+
+/* Ex. 3 */
+.ex3{
+    width: 210px;
+    height: 110px;
+    border: 2px solid orange;
+    margin-left: 40px;
+}
+.ex3>div{
+    height: 50px;
+    border: 2px dashed blue;
+    margin: 28px 50px ;
+}
+
+/* Ex. 4 */
+.ex4{
+    width: 230px;
+    height: 230px;
+    border: 2px solid orange;
+    margin-left: 40px;
+}
+.ex4>div{
+    width: 100px;
+    height: 55px;
+    border: 2px dashed blue;
+    margin: 130px 20px 50px 60px;
+}
+
+/* Ex. 5 */
+.ex5{
+    width: 400px;
+    height:  170px;
+    border: 2px solid orange;
+    margin-left: 40px;
+}
+.ex5>div{
+    height: 55px;
+    border: 2px dashed blue;
+    margin: 40px 80px 50px 80px;
+}
