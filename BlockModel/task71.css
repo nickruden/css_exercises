@@ -1,6 +1,6 @@
 .Ex{
     margin: 0 auto;
-    height: 300px;
+    height: 400px;
     width: 800px;
     background-color: rgb(255, 255, 255);
     margin-bottom: 10px;
@@ -20,30 +20,6 @@ p{
 
 /* Ex. 2 */
 b{
-    border: 1px solid red;
-    margin-bottom: 5px;
-}
-
-/* Ex. 3 */
-h2{
-    border: 1px solid red;
-    margin-bottom: 5px;
-}
-
-/* Ex. 4 */
-h3{
-    border: 1px solid red;
-    margin-bottom: 5px;
-}
-
-/* Ex. 5 */
-i{
-    border: 1px solid red;
-    margin-bottom: 5px;
-}
-
-/* Ex. 6 */
-a{
     border: 1px solid red;
     margin-bottom: 5px;
 }
