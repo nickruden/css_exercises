@@ -1,0 +1,22 @@
+.Ex{
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.elem {
+    display: inline-block;
+    margin-left: 40px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
