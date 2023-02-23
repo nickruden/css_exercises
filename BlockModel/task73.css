@@ -1,0 +1,33 @@
+.Ex{
+    margin: 0 auto;
+    height: 470px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.ex1{
+    height: 120px;
+    width: 120px;
+    border: 2px solid green;
+    margin: 0 auto 10px;
+}
+.ex2{
+    height: 120px;
+    width: 250px;
+    border: 2px solid green;
+    margin: 0 auto 10px;
+}
+.ex3{
+    height: 120px;
+    width: 350px;
+    border: 2px solid green;
+    margin: 0 auto 10px;
+}
