@@ -1,0 +1,109 @@
+.Ex{
+    margin: 0 auto;
+    height: 400px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.ex11{
+    margin: 40px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid red;
+}
+.ex12{
+    position: absolute;
+    left: 570px;
+    bottom: 550px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid blue;
+}
+.ex13{
+    position: absolute;
+    left: 670px;
+    bottom: 450px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid green;
+}
+
+/* Ex. 2 */
+.ex21{
+    margin: 40px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid red;
+}
+.ex22{
+    position: absolute;
+    top: 519px;
+    left: 580px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid blue;
+}
+.ex23{
+    position: absolute;
+    top: 519px;
+    left: 680px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid green;
+}
+
+/* Ex. 3 */
+.ex31{
+    margin: 40px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid red;
+}
+.ex32{
+    position: absolute;
+    left: 530px;
+    top: 985px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid blue;
+}
+.ex33{
+    position: absolute;
+    left: 575px;
+    top: 1030px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid green;
+}
+
+/* Ex. 1 */
+.ex41{
+    margin: 40px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(248, 139, 139);
+}
+.ex42{
+    position: absolute;
+    left: 530px;
+    top: 1410px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(95, 141, 226);
+}
+.ex43{
+    position: absolute;
+    left: 570px;
+    top: 1460px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(77, 224, 139);
+}
