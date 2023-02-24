@@ -1,0 +1,198 @@
+.Ex{
+    margin: 0 auto;
+    height: 550px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.parent1{
+    margin: 0 auto;
+    height: 380px;
+    width: 440px;
+    border: 2px solid green;
+    position: relative;
+}
+.parent1>div{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    height: 90px;
+    width: 90px;
+    border: 2px solid red;
+}
+
+/* Ex. 2 */
+.parent2{
+    margin: 0 auto;
+    height: 380px;
+    width: 440px;
+    background-color: rgb(61, 250, 156);
+    position: relative;
+}
+.ex21{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 90px;
+    width: 90px;
+    background-color: #fff;
+}
+.ex22{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+    background-color: #fff;
+}
+
+/* Ex. 3 */
+.parent3{
+    margin: 0 auto;
+    height: 380px;
+    width: 200px;
+    border: 2px solid black;
+    position: relative;
+}
+.ex31{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.ex32{
+    position: absolute;
+    left: 50px;
+    top: 140px;
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.ex33{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    height: 90px;
+    width: 90px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+/* Ex. 4 */
+.parent4{
+    margin: 0 auto;
+    height: 440px;
+    width: 440px;
+    background-color: rgb(61, 250, 156);
+    border-radius: 50%;
+    position: relative;
+}
+.ex41{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.ex42{
+    position: absolute;
+    top: 80px;
+    left: 270px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.ex43{
+    position: absolute;
+    top: 195px;
+    left: 185px;
+    height: 65px;
+    width: 65px;
+    background-color: rgb(255, 255, 255);
+}
+.ex44{
+    position: absolute;
+    top: 320px;
+    left: 135px;
+    height: 20px;
+    width: 175px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Ex. 5 */
+.parent5{
+    margin: 0 auto;
+    height: 440px;
+    width: 440px;
+    background-color: rgb(193, 238, 30);
+    border-radius: 50%;
+    position: relative;
+}
+.ex51{
+    position: absolute;
+    top: 80px;
+    left: 75px;
+    height: 95px;
+    width: 95px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 3;
+}
+.ex52{
+    position: absolute;
+    top: 80px;
+    left: 270px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 3;
+}
+.ex53{
+    position: absolute;
+    top: 210px;
+    left: 185px;
+    height: 75px;
+    width: 75px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 3;
+}
+.ex54{
+    background-color: #fff;
+	position: absolute;
+	left: 120px;
+	top: 190px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	z-index: 1;
+}
+.ex55{
+    background-color: rgb(193, 238, 30);
+	position: absolute;
+	left: 68px;
+	top: 50px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	z-index: 2;
+}
