@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Ex. 1 */
+header{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(209, 206, 31);
+    text-align: center;
+    border-bottom: 1px solid rgb(146, 168, 46);
+}
+#text1{
+    color: white;
+    margin: 20px auto;
+    font-size: 24px;
+}
+main{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    border: 2px solid rgb(209, 206, 31);
+    font-size: 18px;
+}
