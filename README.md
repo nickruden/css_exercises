@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/R0S6mWK/css-318-674222.png" alt="css-logo" height = "190"/>
+  <img src="https://i.ibb.co/R0S6mWK/css-318-674222.png" alt="css3-logo" height = "190"/>
   <h1>CSS3</h1>
  
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=1&pause=100000000000000000000&color=37474f&background=FF000000&center=true&vCenter=true&width=1000&height=72&lines=------------------------------------------------------------" alt="Typing SVG" /></a> 
