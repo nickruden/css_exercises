@@ -20,7 +20,7 @@ h1{
     border: 2px solid green;
     position: relative;
 }
-.parent1>div{
+.ex11{
     position: absolute;
     top: 80px;
     left: 100px;
