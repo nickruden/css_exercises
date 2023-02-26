@@ -1,0 +1,33 @@
+.Ex{
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+    position: relative;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Ex. 1 */
+.ex1{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    bottom: 100px;
+    left: 100px;
+    border: 2px solid green;
+}
+
+/* Ex. 2 */
+.ex2{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    bottom: 50px;
+    left: 10px;
+    border: 2px solid green;
+}
