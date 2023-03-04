@@ -1,0 +1,23 @@
+.Ex{
+    margin: 0 auto;
+    height: 380px;
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+    font-size: 18px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.ex11{
+    float: left;
+}
+.ex12{
+    float: right;
+}
