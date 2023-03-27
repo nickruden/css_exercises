@@ -21,16 +21,15 @@ h1{
 }
 .child1 {
     float: left;
-    width: 100px;
-    height: 50px;
-    margin: 0 10px;
-    text-align: center;
-    border: 1px solid green;
+	width: 100px;
+	height: 50px;
+	margin: 0 10px;
+	text-align: center;
+	border: 1px solid green;
 }
 .clearfix1 {
     clear: both;
 }
-
 
 /* Ex. 2 */
 .parent2 {
@@ -39,11 +38,11 @@ h1{
 }
 .child2 {
     float: right;
-    width: 100px;
-    height: 50px;
-    margin: 0 10px;
-    text-align: center;
-    border: 1px solid green;
+	width: 100px;
+	height: 50px;
+	margin: 0 10px;
+	text-align: center;
+	border: 1px solid green;
 }
 .clearfix2 {
     clear: both;
