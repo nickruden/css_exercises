@@ -1,0 +1,93 @@
+.Ex{
+    margin: 0 auto;
+    height: 400px;
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Ex. 1 */
+.parent1 {
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.child1 {
+    height: 50px;
+    width: 110px;
+    border: 2px solid green;
+}
+
+/* Ex. 2 */
+.parent2 {
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.child2 {
+    height: 50px;
+    width: 110px;
+    border: 2px solid green;
+}
+
+/* Ex. 3 */
+.parent3 {
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.child3 {
+    height: 50px;
+    width: 110px;
+    border: 2px solid green;
+}
+
+/* Ex. 4 */
+.parent4 {
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.child4 {
+    height: 50px;
+    width: 110px;
+    border: 2px solid green;
+}
+
+/* Ex. 5 */
+.parent5 {
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+.child5 {
+    height: 50px;
+    width: 110px;
+    border: 2px solid green;
+}
